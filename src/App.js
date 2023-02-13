@@ -8,8 +8,12 @@ import Chat from "./pages/chat";
 const socket = io.connect("http://localhost:4000");
 
 function App() {
+
+  
   const [username, setUsername] = useState(""); 
   const [room, setRoom] = useState(""); 
+
+
   return (
     <Router>
       <div className="App">
